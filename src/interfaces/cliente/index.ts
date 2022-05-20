@@ -6,3 +6,5 @@ export * from "./subsegmentoPropio.dto";
 export * from "./subsegmentoPropio.model";
 export * from "./zona.dto";
 export * from "./zona.model";
+
+export * from "./relevamiento";

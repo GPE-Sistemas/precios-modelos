@@ -1,21 +1,7 @@
-import { IEmpresa } from "./empresa.model";
-import { IFamiliaQuimica } from "./familiaQuimica.model";
-import { IPrincipioActivo } from "./principioActivo.model";
-import { ISegmento } from "./segmento.model";
-import { ISubsegmento } from "./subsegmento.model";
-
-export interface IComposicion {
-  idFamiliaQuimica?: string;
-  idPrincipioActivo?: string;
-  concentracion?: number;
-  formulacion?: string;
-  claseTox?: string;
-  unidad?: string;
-  principal?: boolean;
-  // Virtuals
-  familiaQuimica?: IFamiliaQuimica;
-  principioActivo?: IPrincipioActivo;
-}
+import { IEmpresa } from "../empresa.model";
+import { ISegmento } from "../segmento.model";
+import { ISubsegmento } from "../subsegmento.model";
+import { IComposicion } from "./composicion";
 
 export interface IProducto {
   _id: string;

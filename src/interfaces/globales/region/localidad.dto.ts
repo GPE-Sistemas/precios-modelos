@@ -1,4 +1,4 @@
-import { Poligono } from "../auxiliares";
+import { Poligono } from "../../auxiliares";
 
 export interface ICreateLocalidad {
   nombre: string;

@@ -1,4 +1,4 @@
-import { IComposicion } from "./producto.model";
+import { IComposicion } from "./composicion";
 
 export interface ICreateProducto {
   nombre: string;

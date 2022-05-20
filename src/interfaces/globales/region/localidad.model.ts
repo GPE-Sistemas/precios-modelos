@@ -1,4 +1,4 @@
-import { Poligono } from "../auxiliares";
+import { Poligono } from "../../auxiliares";
 import { IDepartamento } from "./departamento.model";
 import { IProvincia } from "./provincia.model";
 

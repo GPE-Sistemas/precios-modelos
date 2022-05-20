@@ -1,4 +1,4 @@
-import { Poligono } from "../auxiliares";
+import { Poligono } from "../../auxiliares";
 import { IProvincia } from "./provincia.model";
 
 export interface IDepartamento {
