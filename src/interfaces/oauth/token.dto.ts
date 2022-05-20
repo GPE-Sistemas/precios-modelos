@@ -1,4 +1,4 @@
-import { IUsuario } from "../tenant";
+import { IUsuario } from "../globales";
 import { ICreateClient } from "./client.dto";
 
 export interface ICreateToken {

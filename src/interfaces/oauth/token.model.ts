@@ -1,4 +1,4 @@
-import { IUsuario } from "../tenant";
+import { IUsuario } from "../globales";
 import { IClient } from "./client.model";
 
 export interface IToken {
