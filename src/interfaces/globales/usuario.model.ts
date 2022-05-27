@@ -33,7 +33,7 @@ export interface IUsuario {
   hash?: string;
   idCliente: string;
   activo: boolean;
-  permisos: IPermiso;
+  permisos: IPermiso[];
   datosPersonales?: IDatosPersonales;
   // Virtuals
   cliente?: ICliente;

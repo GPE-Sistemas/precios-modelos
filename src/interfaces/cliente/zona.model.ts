@@ -1,14 +1,15 @@
-import { Poligono } from "../auxiliares";
-import { ICliente } from "../globales";
-import { IRegion } from "./region.model";
+import { ICliente, IDepartamento, ILocalidad, IProvincia } from "../globales";
 
 export interface IZona {
   _id: string;
   idCliente: string;
   nombre: string;
-  coordenadas: Poligono;
-  idRegion: string;
+  idsProvincias: string[];
+  idsDepartamentos: string[];
+  idsLocalidades: string[];
   // Virtuals
   cliente?: ICliente;
-  region?: IRegion;
+  provincias?: IProvincia[];
+  departamentos?: IDepartamento[];
+  localidades?: ILocalidad[];
 }

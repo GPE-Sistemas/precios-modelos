@@ -1,11 +1,12 @@
-import { Poligono } from "../auxiliares";
 import { ICliente } from "../globales";
+import { IZona } from "./zona.model";
 
 export interface IRegion {
   _id: string;
   idCliente: string;
   nombre: string;
-  coordenadas: Poligono;
+  idsZonas?: string[];
   // Virtuals
   cliente?: ICliente;
+  zonas?: IZona[];
 }
