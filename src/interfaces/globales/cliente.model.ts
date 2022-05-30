@@ -15,8 +15,8 @@ export interface ICliente {
   nombre?: string;
   tipo?: TipoCliente;
   imagenes?: IImagenesCliente;
-  idEmpresa?: string;
+  idsEmpresa?: string[];
   comparteRelevamientos?: boolean;
   // Virtuals
-  empresa: IEmpresa;
+  empresas: IEmpresa[];
 }

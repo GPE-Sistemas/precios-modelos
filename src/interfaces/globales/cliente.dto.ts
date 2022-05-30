@@ -4,7 +4,7 @@ export interface ICreateCliente {
   nombre: string;
   tipo: TipoCliente;
   imagenes?: IImagenesCliente;
-  idEmpresa?: string;
+  idsEmpresa?: string[];
   comparteRelevamientos?: boolean;
 }
 
@@ -13,6 +13,6 @@ export interface IUpdateCliente {
   nombre?: string;
   tipo?: TipoCliente;
   imagenes?: IImagenesCliente;
-  idEmpresa?: string;
+  idsEmpresa?: string[];
   comparteRelevamientos?: boolean;
 }
