@@ -1,5 +1,5 @@
 export interface ICreateZona {
-  idCliente: string;
+  idCliente?: string;
   nombre: string;
   idsProvincias: string[];
   idsDepartamentos: string[];

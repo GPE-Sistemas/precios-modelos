@@ -4,12 +4,12 @@ import { IUbicacionRelevamiento } from "./ubicacionRelevamiento";
 
 export interface ICreateRelevamiento {
   idCliente?: string;
+  idUsuario?: string;
   fecha?: string;
   campAgricola: string;
-  idUsuario?: string;
   condicionComercial: string;
   fuente: string;
-  tipoRelevamiento: string;
+  tipoRelevamiento?: string;
   verificado?: boolean;
   observaciones?: string;
   disponibilidad?: string;

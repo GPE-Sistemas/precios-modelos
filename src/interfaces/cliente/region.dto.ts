@@ -1,7 +1,7 @@
 import { Poligono } from "../auxiliares";
 
 export interface ICreateRegion {
-  idCliente: string;
+  idCliente?: string;
   nombre: string;
   idsZonas?: string[];
 }

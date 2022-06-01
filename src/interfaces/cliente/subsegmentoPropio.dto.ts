@@ -1,5 +1,5 @@
 export interface ICreateSubsegmentoPropio {
-  idCliente: string;
+  idCliente?: string;
   nombre: string;
   idSegmento: string;
   idsProductos?: string[];

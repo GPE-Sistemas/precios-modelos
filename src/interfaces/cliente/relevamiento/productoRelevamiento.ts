@@ -11,10 +11,10 @@ export interface IProductoRelevamiento {
   idProducto: string;
   idEmpresa: string;
   idSegmento: string;
-  idsSubsegmentos: string[];
-  idsSubsegmentosPropios: string[];
+  idsSubsegmentos?: string[];
+  idsSubsegmentosPropios?: string[];
   composicion?: IComposicion[];
-  numeroRegistro: string;
+  numeroRegistro?: string;
   // Virtuals
   producto?: IProducto;
   empresa?: IEmpresa;

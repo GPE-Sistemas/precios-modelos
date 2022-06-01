@@ -4,9 +4,9 @@ import { IRegion } from "../region.model";
 import { IZona } from "../zona.model";
 
 export interface IUbicacionRelevamiento {
-  coordenadas: ICoordenadas;
-  idRegion: string;
-  idZona: string;
+  coordenadas?: ICoordenadas;
+  idRegion?: string;
+  idZona?: string;
   idProvincia: string;
   idDepartamento: string;
   idLocalidad: string;

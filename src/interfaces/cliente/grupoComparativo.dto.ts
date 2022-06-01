@@ -1,5 +1,5 @@
 export interface ICreateGrupoComparativo {
-  idCliente: string;
+  idCliente?: string;
   nombre: string;
   idsProductos?: string[];
 }
