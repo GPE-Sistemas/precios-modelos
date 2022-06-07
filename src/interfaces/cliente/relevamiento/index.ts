@@ -3,3 +3,4 @@ export * from "./relevamiento.model";
 export * from "./ubicacionRelevamiento";
 export * from "./pagoRelevamiento";
 export * from "./productoRelevamiento";
+export * from "./resumenRelevamiento";
