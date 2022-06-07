@@ -3,4 +3,5 @@ export interface IEmpresa {
   fechaCreacion: string;
   nombre: string;
   logo?: string;
+  color?: string;
 }
