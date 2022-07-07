@@ -1,4 +1,4 @@
-import { IEmpresa } from "./empresa.model";
+import { IEmpresa } from './empresa.model';
 
 export interface IImagenesCliente {
   icono?: string;
@@ -6,7 +6,7 @@ export interface IImagenesCliente {
   [key: string]: string | undefined;
 }
 
-export type TipoCliente = "Admin" | "Relevador" | "Relevador Full" | "Lector";
+export type TipoCliente = 'Admin' | 'Relevador' | 'Relevador Full' | 'Lector';
 
 export interface ICliente {
   _id: string;
@@ -17,6 +17,7 @@ export interface ICliente {
   imagenes?: IImagenesCliente;
   idsEmpresa?: string[];
   comparteRelevamientos?: boolean;
+  condicionComercialDefault?: string;
   // Virtuals
   empresas: IEmpresa[];
 }

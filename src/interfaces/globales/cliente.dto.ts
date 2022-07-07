@@ -1,4 +1,4 @@
-import { IImagenesCliente, TipoCliente } from "./cliente.model";
+import { IImagenesCliente, TipoCliente } from './cliente.model';
 
 export interface ICreateCliente {
   nombre: string;
@@ -6,6 +6,7 @@ export interface ICreateCliente {
   imagenes?: IImagenesCliente;
   idsEmpresa?: string[];
   comparteRelevamientos?: boolean;
+  condicionComercialDefault?: string;
 }
 
 export interface IUpdateCliente {
@@ -15,4 +16,5 @@ export interface IUpdateCliente {
   imagenes?: IImagenesCliente;
   idsEmpresa?: string[];
   comparteRelevamientos?: boolean;
+  condicionComercialDefault?: string;
 }
