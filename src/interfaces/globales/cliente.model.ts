@@ -1,3 +1,4 @@
+import { IConfigCliente } from "./configCliente";
 import { IEmpresa } from "./empresa.model";
 
 export interface IImagenesCliente {
@@ -16,7 +17,7 @@ export interface ICliente {
   tipo?: TipoCliente;
   imagenes?: IImagenesCliente;
   idsEmpresa?: string[];
-  comparteRelevamientos?: boolean;
+  config?: IConfigCliente;
   // Virtuals
   empresas: IEmpresa[];
 }

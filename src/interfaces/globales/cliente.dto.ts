@@ -1,11 +1,12 @@
 import { IImagenesCliente, TipoCliente } from "./cliente.model";
+import { IConfigCliente } from "./configCliente";
 
 export interface ICreateCliente {
   nombre: string;
   tipo: TipoCliente;
   imagenes?: IImagenesCliente;
   idsEmpresa?: string[];
-  comparteRelevamientos?: boolean;
+  config?: IConfigCliente;
 }
 
 export interface IUpdateCliente {
@@ -14,5 +15,5 @@ export interface IUpdateCliente {
   tipo?: TipoCliente;
   imagenes?: IImagenesCliente;
   idsEmpresa?: string[];
-  comparteRelevamientos?: boolean;
+  config?: IConfigCliente;
 }

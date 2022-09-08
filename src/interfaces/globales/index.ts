@@ -1,5 +1,6 @@
 export * from "./cliente.dto";
 export * from "./cliente.model";
+export * from "./configCliente";
 export * from "./empresa.dto";
 export * from "./empresa.model";
 export * from "./familiaQuimica.dto";
