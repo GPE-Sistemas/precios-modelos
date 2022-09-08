@@ -1,6 +1,6 @@
 interface IMoneda {
-  $?: number;
-  U$S?: number;
+  peso?: number;
+  dolar?: number;
 }
 
 export interface IConfigCliente {
