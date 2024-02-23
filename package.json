@@ -1,4 +1,9 @@
 {
   "name": "precios-modelos",
-  "packageManager": "yarn@4.1.0"
+  "packageManager": "yarn@4.1.0",
+  "version": "1.0.0",
+  "description": "",
+  "author": "GPE Sistemas",
+  "license": "Private",
+  "repository": "https://github.com/GPE-Sistemas/precios-modelos.git"
 }
