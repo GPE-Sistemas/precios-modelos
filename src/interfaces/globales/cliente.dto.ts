@@ -1,5 +1,5 @@
-import { IImagenesCliente, TipoCliente } from "./cliente.model";
-import { IConfigCliente } from "./configCliente";
+import { IImagenesCliente, ITemaCliente, TipoCliente } from './cliente.model';
+import { IConfigCliente } from './configCliente';
 
 export interface ICreateCliente {
   nombre: string;
@@ -7,6 +7,7 @@ export interface ICreateCliente {
   imagenes?: IImagenesCliente;
   idsEmpresa?: string[];
   config?: IConfigCliente;
+  tema?: ITemaCliente;
 }
 
 export interface IUpdateCliente {
@@ -16,4 +17,5 @@ export interface IUpdateCliente {
   imagenes?: IImagenesCliente;
   idsEmpresa?: string[];
   config?: IConfigCliente;
+  tema?: ITemaCliente;
 }

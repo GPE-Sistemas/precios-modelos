@@ -1,5 +1,5 @@
-import { IConfigCliente } from "./configCliente";
-import { IEmpresa } from "./empresa.model";
+import { IConfigCliente } from './configCliente';
+import { IEmpresa } from './empresa.model';
 
 export interface IImagenesCliente {
   icono?: string;
@@ -7,7 +7,14 @@ export interface IImagenesCliente {
   [key: string]: string | undefined;
 }
 
-export type TipoCliente = "Admin" | "Relevador" | "Relevador Full" | "Lector";
+export interface ITemaCliente {
+  primaryColor?: string;
+  accentColor?: string;
+  warnColor?: string;
+  typography?: string;
+}
+
+export type TipoCliente = 'Admin' | 'Relevador' | 'Relevador Full' | 'Lector';
 
 export interface ICliente {
   _id: string;
@@ -18,6 +25,7 @@ export interface ICliente {
   imagenes?: IImagenesCliente;
   idsEmpresa?: string[];
   config?: IConfigCliente;
+  tema?: ITemaCliente;
   // Virtuals
   empresas: IEmpresa[];
 }
